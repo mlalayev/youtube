@@ -1,8 +1,12 @@
-import React, { useState } from 'react';
 import '../components/header.css';
-import youtubelogo from '../assets/youtubelogo.svg';
-import hamburger from '../assets/hamburger.svg';
+import mic from '../assets/mic.svg';
+import React, { useState } from 'react';
 import search from '../assets/search.svg';
+import create from '../assets/create.svg';
+import unnamed from '../assets/unnamed.jpg';
+import hamburger from '../assets/hamburger.svg';
+import youtubelogo from '../assets/youtubelogo.svg';
+import notifications from '../assets/notifications.svg';
 
 function Header() {
     const [isInputFocused, setInputFocused] = useState(false);
@@ -22,6 +26,7 @@ function Header() {
                     <img src={hamburger} alt='hamburger' className='hamburger' />
                 </div>
                 <a href="#"><img src={youtubelogo} alt='youtubelogo' className='youtubelogo' /></a>
+                <p className='hdrlftp'>AZ</p>
             </div>
 
             <div className="headermid">
@@ -35,9 +40,23 @@ function Header() {
                         <img src={search} alt='searchicon' className='search' />
                     </div>
                 </div>
+
+                <div className="micdiv">
+                    <img src={mic} className='mic' />
+                </div>
             </div>
 
-            <div className="headerright"></div>
+            <div className="headerright">
+                <div className="creatediv">
+                    <img src={create} className='create' />
+                </div>
+
+                <div className="notifdiv">
+                    <img src={notifications} className='notifications' />
+                </div>
+
+                <img src={unnamed} className='unnamed' />
+            </div>
         </header>
     );
 }

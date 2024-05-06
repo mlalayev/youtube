@@ -5,6 +5,8 @@
 }
 
 :root {
+    --gray:rgb(170,170,170);
+    --icons-color: rgb(61, 61, 61);
     --frost-white: rgb(255, 255, 255);
     --main-dark-color: rgb(15, 15, 15);
     --icons-hover-color: rgb(39, 39, 39);
@@ -22,6 +24,7 @@ header {
     height: 100%;
     width: 210px;
     display: flex;
+    position: relative;
     align-items: center;
     justify-content: space-around;
 }
@@ -87,11 +90,11 @@ header {
     outline: 1px solid var(--input-outline-blue);
 }
 
-.input:focus + .searchmine {
+.input:focus+.searchmine {
     display: flex;
 }
 
-.searchmine{
+.searchmine {
     left: 135px;
     width: 25px;
     height: 25px;
@@ -122,7 +125,89 @@ header {
     background-color: var(--icons-hover-color);
 }
 
+.hdrlftp{
+    top: 15px;
+    right: -14px;
+    font-size: 13px;
+    color: var(--gray);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 .search {
     width: 30px;
     height: 30px;
+}
+
+.mic {
+    /* position: absolute; */
+    /* right: 0; */
+    width: 30px;
+    height: 30px;
+}
+
+.micdiv {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 100px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--icons-hover-color);
+}
+
+.micdiv:hover{
+    background-color: var(--icons-color);
+}
+
+.headerright{
+    gap: 10px;
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.unnamed{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 3px solid var(--input-outline-blue);
+}
+
+.notifications{
+    width: 35px;
+    height: 30px;
+}
+
+.create{
+    width: 35px;
+    height: 30px;
+}
+
+.creatediv{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.creatediv:hover{
+    background-color: var(--icons-hover-color);
+}
+
+.notifdiv{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifdiv:hover{
+    background-color: var(--icons-hover-color);
 }
