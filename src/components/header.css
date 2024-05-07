@@ -20,6 +20,10 @@ header {
     background-color: var(--main-dark-color);
 }
 
+body{
+    background-color: black;
+}
+
 .headerleft {
     height: 100%;
     width: 210px;
@@ -174,6 +178,12 @@ header {
     margin-left: 15px;
     border-radius: 50%;
     border: 3px solid var(--input-outline-blue);
+}
+
+.hambtn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
 }
 
 .notifications{

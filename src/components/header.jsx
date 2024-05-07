@@ -7,8 +7,13 @@ import unnamed from '../assets/unnamed.jpg';
 import hamburger from '../assets/hamburger.svg';
 import youtubelogo from '../assets/youtubelogo.svg';
 import notifications from '../assets/notifications.svg';
+import youtubeshorts from '../assets/youtubeshorts.svg';
+import mainpage from '../assets/mainpage.svg';
+import Dropdown from '../components/dropdown/dropdown.jsx'
+
 
 function Header() {
+    const [isOpen, setIsOpen] = useState(false);
     const [isInputFocused, setInputFocused] = useState(false);
 
     const handleFocus = () => {
@@ -22,9 +27,17 @@ function Header() {
     return (
         <header>
             <div className="headerleft">
-                <div className="hamhover">
+                <div className='hamhover' onClick={() => { setIsOpen(!isOpen) }}>
                     <img src={hamburger} alt='hamburger' className='hamburger' />
+
+                    <div className={`dropdown-menu ${isOpen ? 'active' : 'inactive'}`}>
+                        <ul className='dropdownul'>
+                            <Dropdown img={mainpage} text={'Main Page'} />
+                            <Dropdown img={youtubeshorts} text={'Youtube Shorts'} />
+                        </ul>
+                    </div>
                 </div>
+
                 <a href="#"><img src={youtubelogo} alt='youtubelogo' className='youtubelogo' /></a>
                 <p className='hdrlftp'>AZ</p>
             </div>
