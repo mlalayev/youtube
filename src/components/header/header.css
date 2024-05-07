@@ -1,0 +1,231 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray:rgb(170,170,170);
+    --icons-color: rgb(61, 61, 61);
+    --frost-white: rgb(255, 255, 255);
+    --main-dark-color: rgb(15, 15, 15);
+    --icons-hover-color: rgb(39, 39, 39);
+    --input-outline-blue: rgb(29, 94, 178);
+}
+
+header {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    background-color: var(--main-dark-color);
+}
+
+body{
+    background-color: black;
+}
+
+.headerleft {
+    height: 100%;
+    width: 210px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.youtubelogo {
+    width: 112px;
+    height: 100px;
+    margin-left: 4px;
+}
+
+.hamburger {
+    width: 30px;
+    height: 30px;
+    position: absolute;
+}
+
+.hamhover {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 12px;
+    border-radius: 50%;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+}
+
+.headerleft a {
+    margin-top: 4px;
+}
+
+.hamhover:hover {
+    width: 50px;
+    height: 50px;
+    background-color: var(--icons-hover-color);
+}
+
+.headermid {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.inputgroup input {
+    width: 670px;
+    height: 50px;
+    font-size: 20px;
+    margin-left: 154px;
+    padding-left: 20px;
+    color: var(--frost-white);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: var(--main-dark-color);
+    border: 2px solid var(--icons-hover-color);
+}
+
+.inputgroup input:focus {
+    border: none;
+    width: 710px;
+    height: 48px;
+    margin-left: 114px;
+    padding-left: 60px;
+    outline: 1px solid var(--input-outline-blue);
+}
+
+.input:focus+.searchmine {
+    display: flex;
+}
+
+.searchmine {
+    left: 135px;
+    width: 25px;
+    height: 25px;
+    display: none;
+    color: white;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+}
+
+.inputgroup {
+    height: 100%;
+    display: flex;
+    position: relative;
+    align-items: center;
+}
+
+.inputgroup div {
+    width: 80px;
+    right: -79px;
+    height: 50px;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-color: var(--icons-hover-color);
+}
+
+.hdrlftp{
+    top: 15px;
+    right: -14px;
+    font-size: 13px;
+    color: var(--gray);
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.search {
+    width: 30px;
+    height: 30px;
+}
+
+.mic {
+    width: 30px;
+    height: 30px;
+}
+
+.micdiv {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    margin-left: 100px;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--icons-hover-color);
+}
+
+.micdiv:hover{
+    background-color: var(--icons-color);
+}
+
+.headerright{
+    gap: 10px;
+    display: flex;
+    margin-left: 120px;
+    align-items: center;
+}
+
+.unnamed{
+    width: 45px;
+    height: 45px;
+    margin-left: 15px;
+    border-radius: 50%;
+    border: 3px solid var(--input-outline-blue);
+}
+
+.hambtn{
+    border: none;
+    cursor: pointer;
+    background-color: transparent;
+}
+
+.notifications{
+    width: 35px;
+    height: 30px;
+}
+
+.create{
+    width: 35px;
+    height: 30px;
+}
+
+.creatediv{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.creatediv:hover{
+    background-color: var(--icons-hover-color);
+}
+
+.notifdiv{
+    width: 50px;
+    height: 50px;
+    display: flex;
+    border-radius: 50%;
+    align-items: center;
+    justify-content: center;
+}
+
+.notifdiv:hover{
+    background-color: var(--icons-hover-color);
+}
+
+.you{
+    display: flex;
+    color: white;
+    font-size: 20px;
+    padding-top: 38px;
+    padding-left: 28px;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
