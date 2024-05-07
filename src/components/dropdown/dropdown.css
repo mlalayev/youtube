@@ -14,8 +14,8 @@
 
 .hr {
     width: 96%;
-    margin: auto;
     height: 1px;
+    margin: auto;
     margin-left: 10px;
     margin-top: 15px;
     margin-bottom: 15px;
@@ -30,10 +30,10 @@
     padding-top: 14px;
     max-height: 100vh;
     position: absolute;
+    overflow-y: scroll;
     flex-direction: column;
     justify-content: flex-start;
     background-color: var(--main-dark-color);
-    overflow-y: scroll !important;
 }
 
 .dropdownul::-webkit-scrollbar {
@@ -43,8 +43,8 @@
 .dropdownul:hover::-webkit-scrollbar-thumb {
     width: 5px;
     height: 200px;
-    background-color: var(--icons-hover-color);
     border-radius: 20px;
+    background-color: var(--icons-hover-color);
 }
 
 .dropdown-menu {
