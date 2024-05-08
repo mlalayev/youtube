@@ -1,9 +1,9 @@
-import React from 'react'
-import '../leftaside/leftaside.css'
-import you from '../../assets/you.svg'
-import mainpage from '../../assets/mainpage.svg'
-import youtubeshorts from '../../assets/youtubeshorts.svg'
-import subscriptions from '../../assets/subscriptions.svg'
+import React from 'react';
+import '../leftaside/leftaside.css';
+import you from '../../assets/you.svg';
+import mainpage from '../../assets/mainpage.svg';
+import youtubeshorts from '../../assets/youtubeshorts.svg';
+import subscriptions from '../../assets/subscriptions.svg';
 
 
 function leftaside() {
