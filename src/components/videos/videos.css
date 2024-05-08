@@ -1,31 +1,74 @@
-.fullvideodiv{
+.fullvideodiv {
     width: 440px;
-    background-size: cover;
-    height: 253px;
-    border-radius: 15px;
+    height: 377px;
     position: relative;
+    border-radius: 15px;
+    background-size: cover;
+    /* border: 1px solid red; */
+
 }
 
 :root {
-    --gray:rgb(170,170,170);
+    --gray: rgb(170, 170, 170);
     --icons-color: rgb(61, 61, 61);
-    --icons-color-transparent: rgba(61, 61, 61, 0.458);
+    --icons-color-transparent: rgba(33, 32, 32, 0.79);
     --frost-white: rgb(255, 255, 255);
     --main-dark-color: rgb(15, 15, 15);
     --icons-hover-color: rgb(39, 39, 39);
     --input-outline-blue: rgb(29, 94, 178);
 }
 
-img{
+img {
     height: 253px;
     border-radius: 15px;
     width: 440px;
 }
 
-.timeofvideo{
-    position: absolute;
+.timeofvideo {
+    right: 10px;
+    width: 50px;
+    height: 26px;
+    bottom: 136px;
+    display: flex;
     color: white;
-    bottom: 0;
-    right: 0;
+    font-size: 16px;
+    position: absolute;
+    text-align: center;
+    border-radius: 5px;
+    align-items: center;
+    justify-content: center;
     background-color: var(--icons-color-transparent);
+}
+
+.texth {
+    color: white;
+    font-size: 20px;
+}
+
+.expofvideo {
+    display: flex;
+}
+
+.profilepic {
+    width: 48px;
+    height: 46px;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 50%;
+    border: 1px solid white;
+    background-color: #5a1414;
+}
+
+.textpart{
+    margin-top: 10px;
+}
+
+.textp{
+    color:rgb(170,170,170);
+    margin-top: 10px;
+}
+
+.texttwo{
+    color:rgb(170,170,170);
+    margin-top: 10px;
 }

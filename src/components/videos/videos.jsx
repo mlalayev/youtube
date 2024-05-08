@@ -9,9 +9,16 @@ function videos(props) {
                 <p className='timeofvideo'>{props.text}</p>
             </div>
             <div className="expofvideo">
-                <h1>{props.texth}</h1>
-                <p>{props.textp}</p>
-                <p>{props.texttwo}</p>
+                
+                <div className="profilepic">
+
+                </div>
+
+                <div className="textpart">
+                    <h1 className='texth'>{props.texth}</h1>
+                    <p className='textp'>{props.textp}</p>
+                    <p className='texttwo'>{props.texttwo}</p>
+                </div>
             </div>
         </div>
     )

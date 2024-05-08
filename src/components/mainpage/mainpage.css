@@ -3,5 +3,6 @@
     margin-top: 170px;
     margin-left: 120px;
     display: grid;
-    grid-template-columns: 465px 465px;
+    grid-template-columns: 465px 465px 465px;
+    z-index: -999999;
 }
