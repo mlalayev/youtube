@@ -4,5 +4,6 @@
     margin-left: 120px;
     display: grid;
     grid-template-columns: 465px 465px 465px;
+    grid-template-rows: 425px;
     z-index: -999999;
 }
