@@ -18,6 +18,7 @@ header {
     height: 70px;
     display: flex;
     background-color: var(--main-dark-color);
+    position: fixed;
 }
 
 body{
@@ -227,8 +228,4 @@ body{
     font-size: 20px;
     align-items: center;
     font-family: Arial, Helvetica, sans-serif;
-}
-
-body{
-    overflow: hidden;
 }
