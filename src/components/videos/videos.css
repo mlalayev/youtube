@@ -4,24 +4,22 @@
     position: relative;
     border-radius: 15px;
     background-size: cover;
-    /* border: 1px solid red; */
-
 }
 
 :root {
     --gray: rgb(170, 170, 170);
     --icons-color: rgb(61, 61, 61);
-    --icons-color-transparent: rgba(33, 32, 32, 0.79);
     --frost-white: rgb(255, 255, 255);
     --main-dark-color: rgb(15, 15, 15);
     --icons-hover-color: rgb(39, 39, 39);
     --input-outline-blue: rgb(29, 94, 178);
+    --icons-color-transparent: rgba(33, 32, 32, 0.79);
 }
 
 img {
+    width: 440px;
     height: 253px;
     border-radius: 15px;
-    width: 440px;
 }
 
 .timeofvideo {
@@ -64,11 +62,11 @@ img {
 }
 
 .textp{
-    color:rgb(170,170,170);
     margin-top: 10px;
+    color:rgb(170,170,170);
 }
 
 .texttwo{
-    color:rgb(170,170,170);
     margin-top: 10px;
+    color:rgb(170,170,170);
 }

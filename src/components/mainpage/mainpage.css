@@ -1,9 +1,9 @@
 .aaa{
-    position: absolute;
-    margin-top: 170px;
-    margin-left: 120px;
     display: grid;
+    z-index: -999999;
+    margin-top: 170px;
+    position: absolute;
+    margin-left: 120px;
     grid-template-columns: 465px 465px 465px;
     grid-template-rows: 425px 425px 425px 425px 425px ;
-    z-index: -999999;
 }
