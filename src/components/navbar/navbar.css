@@ -13,37 +13,34 @@
     --input-outline-blue: rgb(29, 94, 178);
 }
 
-nav {
-    position: sticky;
-    overflow-y: scroll;
-}
-
 .navbar {
-    top: 78px;
+    top: 84px;
     left: 110px;
-    width: 140%;
-    height: 50px;
-    z-index: -200;
+    height: 53px;
+    max-width: 100vw;
+    z-index: -1;
     display: flex;
-    position: absolute;
+    position: fixed;
+    overflow-x: scroll;
     padding-left: 20px;
     padding-right: 20px;
     align-items: center;
 }
 
+
+.navbarcontainer{
+    position: relative;
+    /* z-index: -1; */
+}
+
 .navbardiv {
     gap: 15px;
     display: flex;
-    overflow-y: scroll;
     align-items: center;
 }
 
-::-webkit-scrollbar {
+nav::-webkit-scrollbar {
     background-color: transparent;
-}
-
-.per {
-    width: 70px;
 }
 
 .textspan {

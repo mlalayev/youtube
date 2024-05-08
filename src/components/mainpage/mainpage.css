@@ -1,0 +1,7 @@
+.aaa{
+    position: absolute;
+    margin-top: 170px;
+    margin-left: 120px;
+    display: grid;
+    grid-template-columns: 465px 465px;
+}

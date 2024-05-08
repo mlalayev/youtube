@@ -1,0 +1,31 @@
+.fullvideodiv{
+    width: 440px;
+    background-size: cover;
+    height: 253px;
+    border-radius: 15px;
+    position: relative;
+}
+
+:root {
+    --gray:rgb(170,170,170);
+    --icons-color: rgb(61, 61, 61);
+    --icons-color-transparent: rgba(61, 61, 61, 0.458);
+    --frost-white: rgb(255, 255, 255);
+    --main-dark-color: rgb(15, 15, 15);
+    --icons-hover-color: rgb(39, 39, 39);
+    --input-outline-blue: rgb(29, 94, 178);
+}
+
+img{
+    height: 253px;
+    border-radius: 15px;
+    width: 440px;
+}
+
+.timeofvideo{
+    position: absolute;
+    color: white;
+    bottom: 0;
+    right: 0;
+    background-color: var(--icons-color-transparent);
+}
