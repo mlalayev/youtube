@@ -1,0 +1,160 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --gray: rgb(170, 170, 170);
+    --icons-color: rgb(61, 61, 61);
+    --frost-white: rgb(255, 255, 255);
+    --main-dark-color: rgb(15, 15, 15);
+    --icons-hover-color: rgb(39, 39, 39);
+    --input-outline-blue: rgb(29, 94, 178);
+}
+
+nav {
+    position: sticky;
+    overflow-y: scroll;
+}
+
+.navbar {
+    top: 78px;
+    left: 110px;
+    width: 140%;
+    height: 50px;
+    z-index: -200;
+    display: flex;
+    position: absolute;
+    padding-left: 20px;
+    padding-right: 20px;
+    align-items: center;
+}
+
+.navbardiv {
+    gap: 15px;
+    display: flex;
+    overflow-y: scroll;
+    align-items: center;
+}
+
+::-webkit-scrollbar {
+    background-color: transparent;
+}
+
+.per {
+    width: 70px;
+}
+
+.textspan {
+    display: flex;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+    min-width: 50px;
+    transition: 0.3s;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--icons-hover-color);
+}
+
+.one {
+    width: 60px;
+    height: 35px;
+    color: black;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.one:hover {
+    background-color: #fff !important;
+}
+
+.two {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.three {
+    width: 90px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.four {
+    width: 70px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.five {
+    width: 190px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.six {
+    width: 80px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.seven {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.eight {
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.nine {
+    width: 96px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.ten {
+    width: 160px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.eleven {
+    width: 96px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.twelve {
+    width: 196px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.thirteen {
+    width: 220px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.fourteen {
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.fifteen {
+    width: 170px;
+    height: 35px;
+    border-radius: 10px;
+}
+
+.textspan:hover {
+    background-color: var(--icons-color);
+}
